@@ -1,0 +1,15 @@
+paypal:
+  client-id: CLIENT_ID
+  client-secret: SECRET_KEY
+  mode: sandbox # 'sandbox' for testing, 'live' for production
+
+spring:
+  application:
+    openApi:
+      title: Paypal
+      description: Paypal API
+      version: 1.0
+      license:
+        name: Apache License Version 2.0
+        url: https://www.apache.org/licenses/LICENSE-2.0
+      name: paypal-api
